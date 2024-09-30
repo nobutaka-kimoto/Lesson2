@@ -3,7 +3,9 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "seed": "node -r dotenv/config ./app/seed/route.ts" ,
+    "_comment": "7行目と8行目を追加、route.tsのコメントアウトを解除"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
